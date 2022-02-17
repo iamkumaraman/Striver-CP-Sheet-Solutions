@@ -1,0 +1,18 @@
+Link of Question :- https://codeforces.com/problemset/problem/282/A
+
+C++ Code:- 
+
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int n; cin>>n;
+    int num=0;
+    while(n--){
+        string s;
+        cin>>s;
+        if(s[1]=='+'){
+            num++;
+        }else num--;
+    }
+    cout<<num<<endl;
+}
