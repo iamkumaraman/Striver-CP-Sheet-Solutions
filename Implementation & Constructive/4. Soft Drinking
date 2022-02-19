@@ -1,0 +1,15 @@
+Link of Questions :- https://codeforces.com/problemset/problem/151/A
+
+C++ Code:- 
+
+  #include <bits/stdc++.h>
+  using namespace std;
+  int main(){
+      int n, k, l, c, d, p, nl, np;
+      cin>>n>>k>>l>>c>>d>>p>>nl>>np;
+      int a=k*l;
+      int b=c*d;
+      int f=p/np;
+      a/=nl;
+      cout<<min(a/n, min(b/n, f/n));
+  }
