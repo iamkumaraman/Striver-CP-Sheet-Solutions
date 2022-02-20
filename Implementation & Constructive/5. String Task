@@ -6,7 +6,7 @@ import java.util.*;
 public class Codeforve 
 {
     public static void main(String[] args)
-	  {
+    {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
         s=s.toLowerCase();
@@ -15,5 +15,5 @@ public class Codeforve
         {
           System.out.print("."+s.charAt(i));
         }
-	  }
+    }
 }
