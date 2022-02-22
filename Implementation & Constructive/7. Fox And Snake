@@ -1,0 +1,45 @@
+Link of Question :- https://codeforces.com/problemset/problem/510/A
+
+Java Code :- 
+
+import java.util.Scanner;
+
+public class CF290_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        int n=cs.nextInt();
+        int m=cs.nextInt();
+        char[][] ch=new char[n][m];
+        int f=0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(i%2==0){
+                    ch[i][j]='#';
+                }
+                else if(f==0){
+                    ch[i][j]='.';
+                    if(j==m-1){
+                        ch[i][j]='#';
+                        f=1;
+                    }
+                    
+                }
+                else{
+                    ch[i][j]='.';
+                    if(j==0){
+                        ch[i][j]='#';
+                        
+                    }
+                    if(j==m-1) f=0;
+                    
+                }
+            }
+        }
+        // String[] st=new String[n];
+        for(int i=0;i<n;i++){
+            // st[i]=new String(ch[i]);
+            System.out.println(new String(ch[i]));
+        }
+        cs.close();
+    }
+}
