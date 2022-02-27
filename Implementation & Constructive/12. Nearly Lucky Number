@@ -1,0 +1,23 @@
+Link of Question :- https://codeforces.com/problemset/problem/110/A
+
+Java Solution :- 
+
+import java.util.Scanner;
+
+public class CF84_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        long n=cs.nextLong();
+        int cnt=0;
+        while(n>0){
+            long rem=n%10;
+            if(rem== 4 || rem==7){
+                cnt++;
+            }
+            n/=10;
+        }
+        if(cnt==4 || cnt==7) System.out.println("YES");
+        else System.out.println("NO");
+        cs.close();
+    }
+}
