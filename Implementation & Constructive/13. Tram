@@ -1,0 +1,20 @@
+Link of Question :- https://codeforces.com/problemset/problem/116/A
+
+Java Solution :- 
+
+
+import java.util.*;
+public class CodeForce{
+    public static void main(String[] args){
+        Scanner cs=new Scanner(System.in);
+        int n=cs.nextInt();
+        int mx=0, ans=0;
+        while(n-->0){
+             int x=cs.nextInt();
+             int y=cs.nextInt();
+            mx=mx-x+y;
+            ans=Math.max(ans,mx);
+        }
+        System.out.println(ans);
+    }
+}
