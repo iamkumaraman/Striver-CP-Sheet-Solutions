@@ -1,0 +1,15 @@
+Link of Question :- https://codeforces.com/problemset/problem/546/A
+
+Java Code :-
+
+import java.util.*;
+public class CF304_A{
+	public static void main(String[] args){
+	    Scanner cs =new Scanner(System.in);
+		int k=cs.nextInt();
+		int n=cs.nextInt();
+		int w=cs.nextInt();
+		int m=k*(w*(w+1)/2);
+		System.out.println(m-n>=0?m-n:0);
+	}
+}
