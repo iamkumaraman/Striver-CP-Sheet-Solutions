@@ -1,0 +1,42 @@
+Link of Question :- https://codeforces.com/problemset/problem/263/A
+
+-----------------------------C++ Code -----------------------
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a[5][5];
+    int m,n;
+    for(int i=0;i<5;i++){
+        for(int j=0;j<5;j++){
+            cin>>a[i][j];
+            if(a[i][j]==1){
+                m=i; n=j;
+            }
+        }
+    }
+    cout<<abs(m-2)+abs(n-2)<<endl;
+}
+
+---------------------Java Code ----------------------------
+
+import java.util.Scanner;
+
+public class CF161_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        int[][] a = new int[5][5];
+        int m=0,n=0;
+        for(int i=0;i<5;i++){
+            for(int j=0;j<5;j++){
+                a[i][j] = cs.nextInt();
+                if(a[i][j]==1){
+                    m=i; n=j;
+                }
+            }
+        }
+        System.out.println(Math.abs(m-2)+Math.abs(n-2));
+    }
+}
+
