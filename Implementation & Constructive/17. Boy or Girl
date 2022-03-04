@@ -1,0 +1,18 @@
+Link of Question :- https://codeforces.com/problemset/problem/236/A
+
+Java Code :- 
+
+import java.util.*;
+
+public class CF146_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        String s=cs.next();
+        Set<Character> hs=new HashSet<>();
+        for(char ch : s.toCharArray()){
+            hs.add(ch);
+        }
+        cs.close();
+        System.out.print(hs.size()%2==0?"CHAT WITH HER!" : "IGNORE HIM!");
+    }
+}
