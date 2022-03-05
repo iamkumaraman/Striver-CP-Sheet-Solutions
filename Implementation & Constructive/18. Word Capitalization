@@ -1,0 +1,14 @@
+Link of Question :- https://codeforces.com/problemset/problem/281/A
+
+Java Code :-
+
+import java.util.*;
+
+public class CF172_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        String s=cs.next();
+        cs.close();
+        System.out.print(s.substring(0,1).toUpperCase()+s.substring(1));
+    }
+}
