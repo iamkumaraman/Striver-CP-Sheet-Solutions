@@ -1,0 +1,14 @@
+Link of Question :- https://codeforces.com/problemset/problem/339/A
+
+Java Code :-
+
+import java.util.*;
+public class Codeforce
+{
+    public static void main(String[] args) {
+        Scanner cs = new Scanner(System.in);
+        String[] inp = cs.next().split("\\+");
+        Arrays.sort(inp);
+        System.out.print(String.join("+", inp));
+    }
+}
