@@ -1,0 +1,22 @@
+Link of Question :- https://codeforces.com/problemset/problem/1337/A
+
+Java Code :-
+
+import java.util.Scanner;
+
+public class CF635_A {
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        int t=cs.nextInt();
+        while(t-->0){
+            int a=cs.nextInt();
+            int b=cs.nextInt();
+            int c=cs.nextInt();
+            int d=cs.nextInt();
+            System.out.println(b+" "+c+" "+(c));
+        }
+        
+        cs.close();
+        
+    }
+}
