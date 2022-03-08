@@ -1,0 +1,17 @@
+Link of Question :- https://codeforces.com/problemset/problem/1389/A
+
+Java Code :- 
+
+import java.util.*;
+public class CFE92_A{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int t=sc.nextInt();
+        while(t-->0){
+            int a=sc.nextInt();
+            int b=sc.nextInt();
+            if(b>=a*2) System.out.println(a+" "+(2*a));
+            else System.out.println("-1 -1");
+        }
+    }
+}
