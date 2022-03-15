@@ -1,0 +1,13 @@
+Link of the Question :- https://codeforces.com/problemset/problem/959/A
+
+Java Code :-
+
+import java.util.Scanner;
+public class CF473_A{ 
+	public static void main(String[] args){
+		Scanner cs = new Scanner(System.in);
+		int n = cs.nextInt();
+		if(n%2==0) System.out.println("Mahmoud");
+		else System.out.println("Ehab");
+	}
+}
