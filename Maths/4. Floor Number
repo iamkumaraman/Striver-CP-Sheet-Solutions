@@ -1,3 +1,17 @@
 Link of Question :- https://codeforces.com/problemset/problem/1426/A
 
 Java Code :- 
+
+import java.util.*;
+public class CF67a_A{ 
+	public static void main(String[] args){
+		Scanner cs = new Scanner(System.in);
+		int t=cs.nextInt();
+		while(t-->0){
+    		int n = cs.nextInt();
+    		int x=cs.nextInt();
+    		if(n<=2) System.out.println(1);
+    		else System.out.println((int)Math.ceil((double)(n-2)/x)+1);
+		}
+	}
+}
