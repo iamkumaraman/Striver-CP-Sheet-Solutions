@@ -2,7 +2,6 @@ Link of Question :- https://takeuforward.org/interview-experience/strivers-cp-sh
 
 Java Code :-
 
-
 import java.util.*;
 public class CF656_A{
     public static void main(String[] args) {
