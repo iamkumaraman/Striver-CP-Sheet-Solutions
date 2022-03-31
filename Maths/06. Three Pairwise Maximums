@@ -20,7 +20,6 @@ public class CF656_A{
                 System.out.println("YES\n" + a[0] + " " + a[0] + " " + a[1]);
             }
         }
-
     }
 }
 
