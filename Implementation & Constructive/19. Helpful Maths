@@ -6,9 +6,9 @@ import java.util.*;
 public class Codeforce
 {
     public static void main(String[] args) {
-        Scanner cs = new Scanner(System.in);
-        String[] inp = cs.next().split("\\+");
-        Arrays.sort(inp);
-        System.out.print(String.join("+", inp));
+        Scanner scanner = new Scanner(System.in);
+        String[] input = scanner.next().split("\\+");
+        Arrays.sort(input);
+        System.out.print(String.join("+", input));
     }
 }
