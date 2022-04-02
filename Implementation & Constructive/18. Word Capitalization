@@ -2,7 +2,7 @@ Link of Question :- https://codeforces.com/problemset/problem/281/A
 
 Java Code :-
 
-import java.util.*;
+import java.util.*;  //import the java.util library
 
 public class CF172_A {
     public static void main(String[] args) {
