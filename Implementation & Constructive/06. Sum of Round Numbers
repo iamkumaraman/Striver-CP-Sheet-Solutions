@@ -12,14 +12,14 @@ int main(){
         int p=0;
         while(n>0){
             int rem=n%10;
-            if(rem!=0){
+            if(rem != 0){
                 v.push_back(rem*pow(10,p));
             }
             p++;
             n/=10;
         }
         cout<<v.size()<<endl;
-        for(auto x: v){
+        for(auto x : v){
             cout<<x<<" ";
         }
         cout<<endl;
