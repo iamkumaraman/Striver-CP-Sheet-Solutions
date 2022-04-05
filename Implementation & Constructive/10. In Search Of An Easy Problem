@@ -15,7 +15,7 @@ int main(){
         if(v[j]==1)
         flag=1;
     }
-    if(flag==0) cout<<"EASY";
+    if(!flag) cout<<"EASY";
     else cout<<"HARD";
     cout<<endl;
 }
