@@ -2,8 +2,8 @@ Link of Question :- https://codeforces.com/problemset/problem/236/A
 
 Java Code :- 
 
+//import the library package
 import java.util.*;
-
 public class CF146_A {
     public static void main(String[] args) {
         Scanner cs=new Scanner(System.in);
