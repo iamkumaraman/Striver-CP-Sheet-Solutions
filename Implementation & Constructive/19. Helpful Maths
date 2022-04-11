@@ -9,6 +9,7 @@ public class Codeforce
         Scanner scanner = new Scanner(System.in);
         String[] input = scanner.next().split("\\+");
         Arrays.sort(input);
+        scanner.close();
         System.out.print(String.join("+", input));
     }
 }
