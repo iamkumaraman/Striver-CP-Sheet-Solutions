@@ -2,7 +2,6 @@ Link of Question :- https://codeforces.com/problemset/problem/116/A
 
 Java Solution :- 
 
-
 import java.util.*;
 public class CodeForce{
     public static void main(String[] args){
