@@ -2,7 +2,7 @@ Link of Question :- https://codeforces.com/problemset/problem/136/A
 
 Java Code :- 
 
-import java.util.Scanner;
+import java.util.*;
 
 public class CF97_A {
     public static void main(String[] args) {
