@@ -10,6 +10,7 @@ public class CF97_A {
         int n=cs.nextInt();
         int[] a=new int[n];
         int[] b=new int[n];
+        
         for(int i=0;i<n;i++){
             a[i]=cs.nextInt();
             b[a[i]%n]=i+1;
@@ -19,7 +20,7 @@ public class CF97_A {
         for(int i=0;i<n;i++){
             a[i]=b[(i+1)%n];
         }
-        for(int i: a)
-        System.out.print(i+" ");
+        for(int i : a)
+            System.out.print(i+" ");
     }
 }
