@@ -35,11 +35,13 @@ public class CF290_A {
                 }
             }
         }
+        
         // String[] st=new String[n];
         for(int i=0;i<n;i++){
             // st[i]=new String(ch[i]);
             System.out.println(new String(ch[i]));
         }
+        
         cs.close();
     }
 }
