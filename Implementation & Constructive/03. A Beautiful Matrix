@@ -21,7 +21,7 @@ int main()
 
 ---------------------Java Code ----------------------------
 
-import java.util.Scanner;
+import java.util.*;
 
 public class CF161_A {
     public static void main(String[] args) {
