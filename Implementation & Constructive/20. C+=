@@ -1,0 +1,32 @@
+Link of the Question :- https://codeforces.com/problemset/problem/1368/A
+import java.util.*;
+public class Codeforce
+{
+    public static void main(String[] args) {
+        Scanner cs = new Scanner(System.in);
+        int t=cs.nextInt();
+        while(t-->0)
+        {
+            int a=cs.nextInt();
+            int b=cs.nextInt();
+            int k=cs.nextInt();
+            int m=b>a?b:a;
+            int n=b>a?a:b;
+            int steps=0;
+            int flag=0;
+            while(m<=k && n<=k){
+                if(flag==1){
+                    m+=n; flag=0;
+                }else{
+                    n+=m; flag=1;
+                }
+                steps++;
+            }
+            System.out.println(steps);
+            
+        }
+    }
+}
+
+JAVA Code :- 
+
