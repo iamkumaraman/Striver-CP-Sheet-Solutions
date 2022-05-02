@@ -1,0 +1,50 @@
+import java.util.Scanner;
+
+public class Code{
+    public static boolean canBeDone(long mid, long x, long y, long z, long a, long b, long c, long p1, long p2, long p3, long r){
+        long tot_a=mid*x;
+        long tot_b=mid*y;
+        long tot_c=mid*z;
+        long ex1=0, ex2=0, ex3=0;
+        if(tot_a>a){
+            ex1=(tot_a-a)*p1;
+        }
+        if(tot_b>b){
+            ex2=(tot_b-b)*p2;
+        }
+        if(tot_c>c){
+            ex3=(tot_c-c)*p3;
+        }
+        if(ex1+ex2+ex3>r) return false;
+        return true;
+    }
+    public static void main(String[] args) {
+        Scanner cs=new Scanner(System.in);
+        String s=cs.next();
+        long x=0, y=0, z=0;
+        for(int i=0;i<s.length();i++){
+            if(s.charAt(i)=='B') x++;
+            else if(s.charAt(i)=='S') y++;
+            else z++;
+        }
+        long a=cs.nextLong();
+        long b=cs.nextLong();
+        long c=cs.nextLong();
+        long p1=cs.nextLong();
+        long p2=cs.nextLong();
+        long p3=cs.nextLong();
+        long r=cs.nextLong();
+        long ans=0, low=0, high=10000000000000L;
+        while(low<=high){
+            long mid=low+(high-low)/2;
+            if(canBeDone(mid,x,y,z, a,b,c,p1,p2,p3,r)){
+                ans=mid;
+                low=mid+1;
+            }else{
+                high=mid-1;
+            }
+        }
+        System.out.println(ans);
+        cs.close();
+    }
+}
