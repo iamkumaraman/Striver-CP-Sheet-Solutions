@@ -2,7 +2,8 @@ Link of Question :- https://codeforces.com/contest/514/problem/A
 
 Java Code :- 
 
-import java.util.Scanner;
+import java.util.*;
+
 public class CF291_A {
     public static void main(String[] args) {
     
