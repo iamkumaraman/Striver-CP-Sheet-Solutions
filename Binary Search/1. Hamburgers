@@ -2,7 +2,7 @@ Link of the Question :-
 
 Java Solution :- 
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Code{
     public static boolean canBeDone(long mid, long x, long y, long z, long a, long b, long c, long p1, long p2, long p3, long r){
