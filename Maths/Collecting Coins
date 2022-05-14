@@ -1,4 +1,7 @@
+Link of the question :- 
+
 Java Solution:-
+
 import java.util.*;
 public class CF615_A {
 	 public static void main (String args[]){
