@@ -1,30 +1,30 @@
-Link of the question :- 
+Link of the Question :- 
 
 Java Solution:-
 
 import java.util.*;
 public class CF615_A {
-	 public static void main (String args[]){
-        Scanner sc=new Scanner(System.in);
-        int t =sc.nextInt();
-        while(t-->0){
-            int a[]=new int[3];
-             a[0]=sc.nextInt();
-             a[1]=sc.nextInt();
-             a[2]=sc.nextInt();
-             int n=sc.nextInt();
-             Arrays.sort(a); 
-             int q=a[2]+a[2]-a[1]-a[0];
-            if(q>n){
-                System.out.println("NO");
-            }else{
-            	int p=n-q;
-            	if(p%3==0) {
-            		System.out.println("YES");
-            	}else{
-            	    System.out.println("NO");
-            	}
-            }	
-        }
+	public static void main (String args[]){
+		Scanner sc=new Scanner(System.in);
+		int t =sc.nextInt();
+		while(t-->0){
+		    int a[]=new int[3];
+		     a[0]=sc.nextInt();
+		     a[1]=sc.nextInt();
+		     a[2]=sc.nextInt();
+		     int n=sc.nextInt();
+		     Arrays.sort(a); 
+		     int q=a[2]+a[2]-a[1]-a[0];
+		    if(q>n){
+			System.out.println("NO");
+		    }else{
+			int p=n-q;
+			if(p%3==0) {
+				System.out.println("YES");
+			}else{
+			    System.out.println("NO");
+			}
+		    }	
+		}
 	 }
 }
