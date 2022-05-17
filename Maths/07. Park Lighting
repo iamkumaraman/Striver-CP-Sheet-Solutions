@@ -15,5 +15,6 @@ public class CF645_A{
             int z=(n*m+1)/2;
             System.out.println(z);
         }
+        sc.close();
     }
 }
