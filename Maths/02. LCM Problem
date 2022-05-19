@@ -8,10 +8,11 @@ public class CFE92_A{
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
         while(t-->0){
-            int a=sc.nextInt();
-            int b=sc.nextInt();
-            if(b>=a*2) System.out.println(a+" "+(2*a));
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            if(b >= a*2) System.out.println(a+" "+(2*a));
             else System.out.println("-1 -1");
         }
+        sc.close();
     }
 }
