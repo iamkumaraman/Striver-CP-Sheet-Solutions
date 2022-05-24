@@ -27,5 +27,6 @@ public class CF615_A {
 			}
 		    }	
 		}
+		sc.close();		
 	 }
 }
