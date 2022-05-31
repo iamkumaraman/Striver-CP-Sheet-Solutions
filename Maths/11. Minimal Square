@@ -1,0 +1,29 @@
+Link of the Question :- https://codeforces.com/problemset/problem/1360/A
+
+JAVA Code :-
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Codechef
+{
+    public static void main (String[] args) throws java.lang.Exception
+	{
+	    Scanner cs=new Scanner(System.in);
+		int t=cs.nextInt();
+		while(t-->0){
+		    int n=cs.nextInt();
+		    int m=cs.nextInt();
+		    if(m>n){
+		        int temp=m;
+		        m=n; n=temp;
+		    }
+	        if(m*2>=n){
+	            System.out.println(2*m*2*m);
+	        }else{
+	            System.out.println(n*n);
+	        }
+		}
+	}
+}
