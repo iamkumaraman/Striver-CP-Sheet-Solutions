@@ -3,8 +3,6 @@ Link of the Question :- https://codeforces.com/problemset/problem/1360/A
 JAVA Code :-
 
 import java.util.*;
-import java.lang.*;
-import java.io.*;
 
 public class Codechef
 {
