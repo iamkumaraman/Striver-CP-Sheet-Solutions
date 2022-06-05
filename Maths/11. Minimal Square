@@ -17,11 +17,11 @@ public class Codechef
 		int temp=m;
 		m=n; n=temp;
 	    }
-		if(m*2>=n){
-		    System.out.println(2*m*2*m);
-		}else{
-		    System.out.println(n*n);
+	    if(m*2>=n){
+	    	System.out.println(2*m*2*m);
+	    }else{
+	    	System.out.println(n*n);
+	    }
 	}
-	}
-	}
+    }
 }
