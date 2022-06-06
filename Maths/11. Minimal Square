@@ -22,6 +22,7 @@ public class Codechef
 	    }else{
 	    	System.out.println(n*n);
 	    }
+	    cs.close();
 	}
     }
 }
