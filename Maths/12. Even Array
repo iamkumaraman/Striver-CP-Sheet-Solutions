@@ -2,9 +2,10 @@ Link of Question :- https://codeforces.com/problemset/problem/1367/B
 
 Java Code :- 
 
-
 import java.util.*;
+
 public class Codeforces {
+
     public static void main(String [] args) {
     	Scanner cs=new Scanner(System.in);
     	int t=cs.nextInt();
